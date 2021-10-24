@@ -3,15 +3,25 @@
 # EXERCISE: 06
 # ageclass.py
 # ----------------------------------------------------------------
-# age guidelines must be a child, infant, teenager, adult.
-# program must continue to a loop until a 0 is inputted.
+
 print("Classification program")
 print("-----------------------------------------------")
-# Grace has terrible memory :^)
-print(int(input("enter age: ")))
+
+age = 1
+while age > 0:
+
+    age = float(input(f'Enter the age: '))
+
+    if age != 0:
+
+        if age <= 1:
+            print("This person is an Infant.")
+        elif 2 <= age <= 12:
+            print("This person is a Child.")
+        elif 13 <= age <= 19:
+            print("this person is a Teenager.")
+        elif age >= 20:
+            print("This person is an Adult.")
 
 print("-----------------------------------------------")
-
-for age in range():
-
-    print("Program has completed.")
+print("The Program Has Ended.")
