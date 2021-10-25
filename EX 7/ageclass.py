@@ -4,7 +4,7 @@
 # ageclass.py
 # ----------------------------------------------------------------
 
-print("Classification program")
+print("Age Classification program")
 print("-----------------------------------------------")
 
 age = 1
