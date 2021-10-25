@@ -15,13 +15,13 @@ while age > 0:
     if age != 0:
 
         if age <= 1:
-            print("This person is an Infant.")
+            print("This person is an Infant")
         elif 2 <= age <= 13:
-            print("This person is a Child.")
+            print("This person is a Child")
         elif 13 <= age <= 20:
-            print("this person is a Teenager.")
+            print("this person is a Teenager")
         elif age >= 20:
-            print("This person is an Adult.")
+            print("This person is an Adult")
 
 print("-----------------------------------------------")
 print("The Program Has Ended")
