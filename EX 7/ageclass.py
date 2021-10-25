@@ -10,7 +10,7 @@ print("-----------------------------------------------")
 age = 1
 while age > 0:
 
-    age = float(input(f'Enter the age: '))
+    age = float(input(f"Enter the age: "))
 
     if age != 0:
 
