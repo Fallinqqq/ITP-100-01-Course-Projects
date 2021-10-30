@@ -18,11 +18,11 @@ instructors_dict = {
     'CM241': 'Lee',
 }
 meeting_dict = {
-    'CS101': '8:00 a.m.',
-    'CS102': '9:00 a.m.',
-    'CS103': '10:00 a.m.',
-    'NT110': '11:00 a.m.',
-    'CM241': '1:00 p.m.',
+    'CS101': '8:00 AM',
+    'CS102': '9:00 AM',
+    'CS103': '10:00 AM',
+    'NT110': '11:00 AM',
+    'CM241': '1:00 PM',
 }
 
 print("College Course Locator Program")
@@ -33,9 +33,9 @@ if course_number not in room_dict:
     print(f"{course_number} course number is invalid.")
 else:
     print(f"The details for course {course_number} are: ")
-    print(f'Room: {room_dict [course_number]}')
-    print(f'Instructor: {instructors_dict [course_number]} ')
-    print(f'meeting time: {meeting_dict [course_number]} ')
+    print(f'Room:\t\t\t{room_dict [course_number]}')
+    print(f'Instructor:\t\t{instructors_dict [course_number]} ')
+    print(f'meeting time:\t{meeting_dict [course_number]} ')
 
 print('---------------------------------------------------')
 print("program has terminated")
