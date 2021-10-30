@@ -30,7 +30,7 @@ course_number = str(input("Enter a course number:  "))
 print('---------------------------------------------------')
 
 if course_number not in room_dict:
-    print(f"{course_number} course number is invalid.")
+    print(f"{course_number} is an invalid course number. Please try again.")
 else:
     print(f"The details for course {course_number} are: ")
     print(f'Room:\t\t\t{room_dict [course_number]}')
