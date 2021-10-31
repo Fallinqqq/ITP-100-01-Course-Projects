@@ -35,7 +35,7 @@ else:
     print(f"The details for course {course_number} are: ")
     print(f'Room:\t\t\t{room_dict [course_number]}')
     print(f'Instructor:\t\t{instructors_dict [course_number]} ')
-    print(f'meeting time:\t{meeting_dict [course_number]} ')
+    print(f'Meeting time:\t{meeting_dict [course_number]} ')
 
 print('---------------------------------------------------')
-print("program has terminated")
+print("Program has terminated")
