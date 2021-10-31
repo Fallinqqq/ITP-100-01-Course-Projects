@@ -38,4 +38,4 @@ else:
     print(f'Meeting time:\t{meeting_dict [course_number]} ')
 
 print('---------------------------------------------------')
-print("Program has terminated")
+print("Program has terminated properly")
