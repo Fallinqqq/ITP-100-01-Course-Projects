@@ -3,7 +3,6 @@
 # EXERCISE: 08
 # files.py
 # ----------------------------------------------------------------
-# displaying all the numbers in the file (separately in each line)
 from pathlib import Path
 path = Path.home() / "numbers-1.txt"
 
