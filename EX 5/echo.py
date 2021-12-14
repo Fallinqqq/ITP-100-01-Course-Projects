@@ -1,7 +1,10 @@
-echo1 = input("your input: ")
-for echoing in range(5):
-    print(echo1)
+current_number = 0.0
 
-''''echo1 = input("your input: ")'''
-'''print(f"you typed: {echo1}")'''
+
+for number in range(4):
+    current_number = current_number + float(input("add num: "))
+
+
+print(current_number)
+
 
