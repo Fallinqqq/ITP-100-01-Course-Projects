@@ -5,6 +5,7 @@
 # ----------------------------------------------------------------
 import tkinter as tk
 
+# Window structure
 main_window = tk.Tk()
 main_window.title("My Name and Address")
 top_frame = tk.Frame()
