@@ -17,7 +17,7 @@ room_dict = {
 }
 instructors_dict = {
     'CS101': 'Haynes',
-    'CS102': 'Alvardo',
+    'CS102': ' Alvardo',
     'CS103': 'Rich',
     'NT110': 'Burkes',
     'CM241': 'Lee',
