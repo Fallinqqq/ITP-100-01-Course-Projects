@@ -3,6 +3,7 @@
 # Program 03 - GUI
 # GUI.py
 # -------------------------------------------------
+
 from tkinter import *
 from tkinter import ttk
 
@@ -15,7 +16,7 @@ class GUI:
         self.label = ttk.Checkbutton(rootWindow, text="Enable", variable=self.buttonsEnabled)
         self.label.grid(row=1, column=0)
 
-        self.label = ttk.Label(rootWindow, text="Title Editor")
+        self.label = ttk.Label(rootWindow, text="Text Editor")
         '''self.label = ttk.Label(rootWindow, text="Hello World!")'''
         self.label.grid(row=0, column=0)
 

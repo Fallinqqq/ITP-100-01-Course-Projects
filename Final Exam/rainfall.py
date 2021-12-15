@@ -22,7 +22,7 @@ for months in range(12):
         except ValueError:
             continue
 
-linz = "---" * 19
+linz = "---" * 17
 print(linz)
 
 print("For 12 months")

@@ -1,8 +1,9 @@
 # Grace Foster
 # ITP 100-01
 # Program 2 - Shell
-# rainfall.py
+# shell.py
 # -------------------------------------------------
+
 from tkinter import *
 from tkinter import ttk
 
