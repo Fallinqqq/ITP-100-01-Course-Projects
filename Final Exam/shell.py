@@ -1,6 +1,6 @@
 # Grace Foster
 # ITP 100-01
-# Program 2 - Shell
+# Program 02 - Shell
 # shell.py
 # -------------------------------------------------
 
